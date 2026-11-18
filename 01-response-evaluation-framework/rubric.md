@@ -11,4 +11,4 @@ Judges whether the response addresses the actual question and includes all essen
 4. Clarity
 Judges whether the response is easy to read and understand, with language and explanations appropriate for the intended audience. It does not judge factual accuracy, missing information or compliance with explicit formatting requirements.
 5. Safety
-Judges whether the response avoids harmful instructions, dangerous advice or content that could cause real-world harm. It does not judge ordinary factual mistakes unless they create a genuine safety risk. HOW ABOUT NOW?
+Judges whether the response avoids harmful instructions, dangerous advice or content that could cause real-world harm. It does not judge ordinary factual mistakes unless they create a genuine safety risk.
