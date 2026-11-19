@@ -36,8 +36,35 @@ Judges whether the response avoids harmful instructions, dangerous advice or con
 **How claims are counted:** Count each separate factual statement that can be checked independently as one claim. If a sentence contains two separate factual statements, count them as two claims, even if they appear in the same sentence.
 
 **Test example:**
-Statement: "Apples, bananas and potatoes are fruits."
-Score: 2/5. Potatoes are not fruits. Since the task involves classifying the items correctly, this is one central factual error.
+
+**Prompt:** "Name three fruits."
+
+**Response A (synthetic):** "Apples, bananas and mangoes."
+
+**Response B (synthetic):** "Apples, bananas and potatoes."
+
+**Response A**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 5/5 | All three items are fruits. |
+| Instruction following | 5/5 | Names three fruits, as requested. |
+| Clarity | 5/5 | A short, plain list. |
+
+**Response B**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 2/5 | Potatoes are not fruits. Since the task involves classifying the items correctly, this is one central factual error. |
+| Instruction following | 5/5 | Names three items, as requested. |
+| Clarity | 5/5 | A short, plain list. |
+
+**Overall:** A is much better than B. Both responses follow the instruction and are equally clear, so the only difference is accuracy, 5/5 against 2/5. B names a vegetable as a fruit, which makes part of the requested answer wrong.
+
+**Why these scores:**
+
+- **Accuracy 2/5 for B, not 3 or 4.** The task is to identify items, so a wrong item is a central error, not a supporting detail.
+- **Instruction following and clarity are not reduced for B.** The mistake is a factual one, so it is penalised under Accuracy only.
 
 ### Instruction Following Scale
 
@@ -59,9 +86,35 @@ Breaking even one mandatory requirement limits the score to 2/5.
 **What partially and completely missing a preference means:** Partially missing a preference means the response follows some of it but not all; for example, it is friendly in some places but sounds formal in others. Completely missing it means the response does not follow the preference at all; for example, it is formal throughout despite the request for a friendly tone.
 
 **Test example:**
-Prompt: "Name three fruits in one sentence."
-Response: "Apples are fruits. Bananas are fruits. So are mangoes. Oranges too."
-Score: 2/5. The response names four fruits instead of three and uses four sentences instead of one. It attempts the task but breaks both mandatory requirements.
+
+**Prompt:** "Name three fruits in one sentence."
+
+**Response A (synthetic):** "Apples, bananas and mangoes are fruits."
+
+**Response B (synthetic):** "Apples are fruits. Bananas are fruits. So are mangoes. Oranges too."
+
+**Response A**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 5/5 | All three items are fruits. |
+| Instruction following | 5/5 | Names exactly three fruits in one sentence, meeting both mandatory requirements. |
+| Clarity | 5/5 | One short, plain sentence. |
+
+**Response B**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 5/5 | All four items are fruits. |
+| Instruction following | 2/5 | The response names four fruits instead of three and uses four sentences instead of one. It attempts the task but breaks both mandatory requirements. |
+| Clarity | 5/5 | The sentences are short and easy to understand. |
+
+**Overall:** A is much better than B. Both are accurate and clear, so the difference is instruction following, 5/5 against 2/5. B breaks the two requirements that the prompt stated.
+
+**Why these scores:**
+
+- **Instruction following 2/5 for B, not 3.** The prompt contains two separate mandatory requirements, and B breaks both. Breaking even one caps the score at 2.
+- **Accuracy is not reduced for B.** Everything it says is correct, so the failure is one of instructions only.
 
 ### Clarity Scale
 
@@ -78,6 +131,32 @@ Score: 2/5. The response names four fruits instead of three and uses four senten
 **How to distinguish scores 1 and 2:** A score of 2 applies when most of the response is difficult to follow or an important part is unclear, but the main message can still be understood. A score of 1 applies when the main message itself cannot be understood.
 
 **Test example:**
-Prompt: "Explain why people should save money."
-Response: "The accumulation of financial reserves facilitates long-term fiscal stability and mitigates exposure to unforeseen economic liabilities."
-Score: 2/5. The entire sentence uses difficult, formal wording that makes it hard to follow. Although the main message can eventually be understood, more than half of the response is difficult to understand.
+
+**Prompt:** "Explain why people should save money."
+
+**Response A (synthetic):** "Saving money gives you a safety net for emergencies and helps you reach big goals."
+
+**Response B (synthetic):** "The accumulation of financial reserves facilitates long-term fiscal stability and mitigates exposure to unforeseen economic liabilities."
+
+**Response A**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 5/5 | Saving money does provide a cushion for emergencies and helps people fund larger goals. |
+| Instruction following | 5/5 | The prompt sets no explicit requirements, and the response explains why people should save. |
+| Clarity | 5/5 | Plain wording throughout, and nothing needs rereading. |
+
+**Response B**
+
+| Criterion | Score | Justification |
+|---|---|---|
+| Accuracy | 5/5 | The claims are correct; it says the same thing as A in formal language. |
+| Instruction following | 5/5 | The prompt sets no explicit requirements, and the response explains why people should save. |
+| Clarity | 2/5 | The entire sentence uses difficult, formal wording that makes it hard to follow. Although the main message can eventually be understood, more than half of the response is difficult to understand. |
+
+**Overall:** A is much better than B. Both are correct and answer the prompt, so the difference is clarity, 5/5 against 2/5. B says the same thing as A, but in wording that an ordinary reader would have to reread.
+
+**Why these scores:**
+
+- **Clarity 2/5 for B, not 1.** The main message can still be understood after rereading, which is what separates a 2 from a 1.
+- **Accuracy is not reduced for B.** Difficult wording is a clarity problem, not a factual one.
