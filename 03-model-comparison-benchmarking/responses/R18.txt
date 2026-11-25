@@ -1,0 +1,18 @@
+The moon appears to change shape throughout the month because, as it orbits Earth, we see different portions of its sunlit side.
+
+The Sun always lights up half of the Moon. However, as the Moon moves around Earth, the amount of that illuminated half we can see changes.
+
+These changes are called **phases of the Moon**. They include:
+
+1. **New Moon:** The Moon appears dark or nearly invisible.
+2. **Waxing Crescent:** A small part of the Moon becomes visible.
+3. **First Quarter:** Half of the Moon appears illuminated.
+4. **Waxing Gibbous:** More than half appears illuminated.
+5. **Full Moon:** The entire visible face appears bright.
+6. **Waning Gibbous:** The illuminated portion begins to decrease.
+7. **Third Quarter:** Half of the Moon appears illuminated again.
+8. **Waning Crescent:** Only a small part remains visible before the cycle repeats.
+
+The complete cycle takes approximately 29.5 days.
+
+**In simple terms:** The Moon doesn't actually change shape. We just see different amounts of its sunlit side as it travels around Earth.

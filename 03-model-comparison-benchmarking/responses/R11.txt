@@ -1,0 +1,7 @@
+Ice floats on water because it is less dense than liquid water. This is a highly unusual property, as most substances are denser in their solid state and would sink in their liquid form.
+The reason for this anomaly lies in water's molecular structure and hydrogen bonding:
+Hydrogen Bonding: Water molecules (H₂O) are polar and attract each other through hydrogen bonds.
+Crystalline Structure: As liquid water cools and freezes (at 0°C or 32°F), the molecules lose kinetic energy and lock into a rigid, hexagonal crystalline lattice.
+Increased Volume: This specific geometric structure holds the water molecules further apart than they naturally are in the chaotic, flowing liquid state.
+Lower Density: Because the same mass of water now occupies a larger volume, its density decreases. Ice is about 9% less dense than liquid water.
+According to Archimedes' principle, any object that is less dense than the fluid it is placed in will float. This unique property is crucial for life on Earth, as it allows ice to form on the surface of lakes and oceans, insulating the liquid water below and allowing aquatic life to survive in cold climates.

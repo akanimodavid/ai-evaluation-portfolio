@@ -1,0 +1,20 @@
+The Moon appears to change shape throughout the month because of its orbit around the Earth and the way sunlight illuminates it. This cycle of changing appearances is known as the **lunar phases**.
+
+Here is the step-by-step breakdown of why this happens:
+
+**1. The Moon doesn't produce its own light**
+The Moon shines simply by reflecting sunlight. At any given moment, exactly one half of the Moon is illuminated by the Sun (the lunar "daytime"), while the other half is in shadow (the lunar "nighttime"). 
+
+**2. The Moon orbits the Earth**
+The Moon takes about 29.5 days to complete one orbit around the Earth. As it travels along this path, the relative positions of the Earth, the Moon, and the Sun are constantly changing. 
+
+**3. Our perspective changes**
+Because the Moon is moving around us, our viewing angle of its sunlit half changes. We are always looking at the same physical side of the Moon, but the amount of that side covered in shadow versus sunlight shifts depending on where the Moon is in its orbit. 
+
+Here is how the cycle progresses:
+*   **New Moon:** The Moon is positioned between the Earth and the Sun. The illuminated half is facing completely away from us, making the Moon practically invisible in the sky.
+*   **Waxing (Growing) Phases:** As the Moon moves along its orbit, we begin to see a sliver of the illuminated side (Waxing Crescent), then half of it (First Quarter), and then more than half (Waxing Gibbous). 
+*   **Full Moon:** The Moon has moved to the opposite side of the Earth from the Sun. Now, the Earth is roughly between the Sun and the Moon, allowing us to see the fully illuminated face.
+*   **Waning (Shrinking) Phases:** As the Moon continues its orbit back toward the Sun's position, the illuminated portion we can see gradually decreases (Waning Gibbous, Third Quarter, and Waning Crescent) until it returns to a New Moon, and the cycle begins again.
+
+In short, the Moon isn't actually changing shape or physically growing and shrinking; it is just a matter of shifting geometry and shadows as we look at it from different angles throughout the month.

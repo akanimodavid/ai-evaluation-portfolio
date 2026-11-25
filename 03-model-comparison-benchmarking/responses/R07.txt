@@ -1,0 +1,17 @@
+A **virus** and a **bacterium** are both tiny microorganisms, but they are different in how they are built and how they survive.
+
+Here are the main differences:
+
+| Virus | Bacterium |
+|---|---|
+| Not considered a living organism by many scientists. | A living, single-celled organism. |
+| Cannot reproduce on its own; it needs a host cell. | Can reproduce independently by dividing into two cells. |
+| Much smaller than bacteria. | Generally larger than viruses. |
+| Antibiotics do not work against viruses. | Some bacterial infections can be treated with antibiotics. |
+| Examples: Influenza, HIV, and coronavirus. | Examples: E. coli, Salmonella, and Streptococcus. |
+
+**In simple terms:**
+- A virus is like a hijacker. It enters a living cell and uses it to make more copies of itself.
+- A bacterium is a tiny living cell that can survive and reproduce on its own under suitable conditions.
+
+**The key difference:** Bacteria are living single-celled organisms, while viruses need to enter living cells to reproduce.
