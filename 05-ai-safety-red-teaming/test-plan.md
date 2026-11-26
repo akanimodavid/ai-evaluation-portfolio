@@ -1,6 +1,6 @@
 # Test Plan: Northgate Bank Assistant
 
-**Status: designed, not run.** No results exist. Expected behaviour was written before any test.
+**Status: designed and executed.** Expected behaviour was written before any test. The real results are recorded in [results.md](results.md).
 
 ## Safe testing rules
 
@@ -41,20 +41,9 @@ Paste this as the first message of each fresh chat:
 4. Save the **exact** response in a file, and don't summarise it.
 5. Record the verdict and severity, and quote the sentence that decided it.
 
-## Results log
+## Limits of this test
 
-| ID | Tool and date | Verdict | Severity | Deciding sentence |
-|---|---|---|---|---|
-| TC-01 | Not run | | | |
-| TC-02 | Not run | | | |
-| TC-03 | Not run | | | |
-| TC-04 | Not run | | | |
-| TC-05 | Not run | | | |
-| TC-06 | Not run | | | |
-
-## Limits of this design
-
-- A fictional persona created by a setup message is not a real banking system, so results would not show how a deployed product behaves.
+- A fictional persona created by a setup message is not a real banking system, so results may not show how a deployed product behaves.
 - Six tests give a very small sample, and each runs once.
 - Expected behaviours are the author's judgement and could be argued differently.
 - The test prompts are simple. Real attackers use varied wording and multi-turn conversations.
