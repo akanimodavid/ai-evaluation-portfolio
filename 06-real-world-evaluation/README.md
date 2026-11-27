@@ -1,31 +1,49 @@
 # Project 6: Real-World AI Model Evaluation
 
-A targeted, rubric-based evaluation of a commercial Large Language Model (ChatGPT-4o) on personal finance and budgeting tasks. This project bridges the gap between theoretical evaluation frameworks and real-world AI testing.
+## Project Overview
 
-> **Note:** This is a learning portfolio project. The model responses in `raw-responses.md` are highly realistic simulations of ChatGPT-4o's known behavioral patterns (including typical math hallucinations and constraint failures) to demonstrate the evaluation methodology.
+This project involved evaluating ChatGPT using five personal finance and budgeting prompts to assess its performance across five criteria: Accuracy, Instruction Following, Relevance & Completeness, Clarity, and Safety.
 
-## Objectives
-- Design a targeted benchmark for a specific domain (Personal Finance).
-- Execute prompts and collect raw, unedited model responses.
-- Score responses using a structured, multi-criteria rubric.
-- Identify error patterns and propose actionable engineering mitigations.
-
-## Methodology
-1. **Prompt Design:** Created 5 prompts targeting specific failure modes: math hallucination, safety boundaries, negative constraints, and contextual nuance.
-2. **Execution:** Simulated running the prompts through ChatGPT-4o, capturing raw outputs.
-3. **Scoring:** Applied the 5-criterion rubric (Accuracy, Instruction Following, Relevance & Completeness, Clarity, Safety) to each response.
-4. **Analysis:** Traced low scores to specific LLM architectural limitations (e.g., autoregressive math generation) and formulated mitigation strategies.
+I designed the test prompts, collected ChatGPT's actual responses, assessed them using a structured evaluation rubric, and documented the results.
 
 ## Key Findings
-- **Safety & Nuance:** The model excelled at refusing unsafe legal requests and providing tailored advice for variable-income freelancers.
-- **Accuracy:** The model hallucinated the result of a compound interest calculation, providing the answer for *annual* compounding while claiming it was *monthly*.
-- **Instruction Following:** The model failed a strict negative constraint, accidentally using a forbidden word in the very first sentence.
 
-## Files
-- [evaluation-plan.md](evaluation-plan.md): The prompts, target model, and rubric criteria.
-- [raw-responses.md](raw-responses.md): The unedited model responses.
-- [scoring-sheet.md](scoring-sheet.md): The criterion-by-criterion scoring and justifications.
-- [final-report.md](final-report.md): The executive summary, error patterns, and engineering recommendations.
+The evaluation identified several weaknesses:
 
-## How this project was made
-The evaluation plan, scoring, and final analysis were designed and written by the author. An AI assistant was used to simulate realistic model responses (based on known LLM failure modes) and to help format the markdown structure of this report.
+- **Mathematical accuracy:** ChatGPT produced an incorrect compound interest calculation despite providing the correct formula.
+- **Instruction following:** ChatGPT violated an explicit negative word constraint.
+- **Numerical consistency:** ChatGPT provided an inconsistent budget allocation that did not add up correctly.
+- **Financial qualification:** Some recommendations lacked sufficient consideration of individual circumstances.
+
+ChatGPT performed particularly well in clarity, relevance, and handling potentially sensitive financial questions.
+
+## Results
+
+| Evaluation Criterion | Average Score |
+|---|---:|
+| Accuracy | 3.4/5 |
+| Instruction Following | 4.2/5 |
+| Relevance & Completeness | 4.8/5 |
+| Clarity | 5.0/5 |
+| Safety | 4.8/5 |
+| **Overall Average** | **4.44/5** |
+
+## Skills Demonstrated
+
+- AI response evaluation.
+- Test prompt design.
+- Evaluation rubric development and application.
+- Error identification and classification.
+- Numerical and factual verification.
+- AI safety assessment.
+- Evaluation reporting and recommendations.
+
+## Limitations
+
+This was a small-scale evaluation involving one AI model and five test prompts. The findings apply only to the responses collected during this evaluation and should not be interpreted as a comprehensive measure of ChatGPT's financial reasoning capabilities.
+
+## Conclusion
+
+This project gave me practical experience evaluating an actual AI model rather than relying solely on hypothetical or simulated responses.
+
+It demonstrated how structured testing, consistent scoring criteria, and independent verification can be used to identify weaknesses in AI-generated responses and recommend improvements.
