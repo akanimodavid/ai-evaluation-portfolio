@@ -38,5 +38,6 @@ This portfolio's evaluation methodologies are designed to map directly to enterp
 - **ISO/IEC 42001 (Risk Assessment):** Project 5's red-teaming methodology aligns with ISO 42001 requirements for identifying and mitigating AI-specific risks (e.g., prompt injection, unauthorized data access) before deployment.
 
 ## Contact
+- GitHub: [akanimodavid](https://github.com/akanimodavid)
 - **LinkedIn:** https://www.linkedin.com/in/akanimodavid
 - **Email:** davidakan31@gmail.com
