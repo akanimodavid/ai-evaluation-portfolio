@@ -9,9 +9,9 @@ graph TD
     E -->|Low Agreement| F[Revise Guidelines]
     E -->|High Agreement| G[Identify Error Patterns]
     G --> H[Propose Engineering Mitigations]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#bbf,stroke:#333,stroke-width:2px
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style H fill:#bbf,stroke:#333,stroke-width:2px,color:#000
 ```
 Welcome to my portfolio. This repository documents my progression from foundational AI evaluation frameworks to real-world model testing and safety assessment. 
 
