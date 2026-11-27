@@ -99,3 +99,8 @@ The full side-by-side labels, agreement table, calculations and disagreement ana
 - [items.md](items.md): The 32 synthetic customer messages.
 - [labels-pass1.md](labels-pass1.md): Annotator 1's original labels.
 - [agreement.md](agreement.md): Side-by-side annotations, agreement calculations, disagreement analysis, limitations and conclusion.
+
+### Automated Verification
+The agreement metrics for this project can be independently verified by running the `kappa_calculator.py` script. Below is the output of the script:
+
+![Kappa Calculator Output](kappa output.png)
