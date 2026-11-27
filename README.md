@@ -1,5 +1,3 @@
-# AI Evaluation & Quality Assurance Portfolio
-
 ## 🔄 My AI Evaluation Methodology
 
 ```mermaid
@@ -32,6 +30,12 @@ My goal is to bridge the gap between AI development and reliable, safe, and high
 ## How to Navigate
 - Each project folder contains its own `README.md` explaining the objectives, methodology, and findings.
 - All projects include a "How this project was made" section, transparently documenting where AI assistance was used for drafting, formatting, or simulating data.
+
+## 🛡️ Alignment with Industry Standards
+
+This portfolio's evaluation methodologies are designed to map directly to enterprise AI governance frameworks:
+- **NIST AI RMF (Measure Function):** Projects 4 and 6 implement structured measurement of model performance, inter-annotator agreement, and hallucination rates, directly supporting the NIST "Measure" function.
+- **ISO/IEC 42001 (Risk Assessment):** Project 5's red-teaming methodology aligns with ISO 42001 requirements for identifying and mitigating AI-specific risks (e.g., prompt injection, unauthorized data access) before deployment.
 
 ## Contact
 - **LinkedIn:** https://www.linkedin.com/in/akanimodavid
