@@ -9,10 +9,10 @@ graph TD
     E -->|Low Agreement| F[Revise Guidelines]
     E -->|High Agreement| G[Identify Error Patterns]
     G --> H[Propose Engineering Mitigations]
-    
+
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style H fill:#bbf,stroke:#333,stroke-width:2px
-
+```
 Welcome to my portfolio. This repository documents my progression from foundational AI evaluation frameworks to real-world model testing and safety assessment. 
 
 My goal is to bridge the gap between AI development and reliable, safe, and high-quality user experiences. Every project includes transparent documentation of methodology, limitations, and the use of AI assistants in the workflow.
